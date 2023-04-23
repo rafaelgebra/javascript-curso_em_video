@@ -28,5 +28,9 @@ node.js  Para linux só instalar a versão mais recente (curl -fsSL https://deb.
 sudo apt-get install -y nodejs)
 
 
+No JS não precisa do ; mas o JS aceita sem problema.
+
+
+
 
 
