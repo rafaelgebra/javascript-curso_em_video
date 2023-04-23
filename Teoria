@@ -1,0 +1,32 @@
+                Modulo A
+        Conhecendo JavaScript.
+
+HTML -> Conteúdo
+CSS -> Estilo
+JS-> Interação
+
+
+                    HTML
+Texto, marcações e imagens ----> Não se programa em HTML (HTML não é linguagem de programação).
+
+                    CSS
+Deixar tudo arrumado e bonito, organizado e armonico. ----> Não se programa em CSS ( CSS não é linguagem de programação).
+
+                    JS
+O papel do JS faz o papel de interação, e até consegue fazer alteração no HTML. ----> O JS (JS é considerado linguarem de programação).
+
+
+                Evolução do javaScript
+
+1970 - a guerra Fria USA e União Sovietica
+os USA criou a DARPA (foi criada para criar tecnologia para a Guerra), Arpanete (foi criada para ter comunicação entre computadores militar, governo e univercidade. Atualmente chama internet).
+
+Software para trabalhar com JS
+Google chrome
+Visual Studio Code (uma das opções)
+node.js  Para linux só instalar a versão mais recente (curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs)
+
+
+
+
