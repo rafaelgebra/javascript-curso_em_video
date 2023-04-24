@@ -1,4 +1,12 @@
-/*window.alert() Mostra um alerta na tela "Uma janela"
-window.confirm() Mostra um campo de confirmação na tela "janela com botão OK e CANCELAR"
-window.prompt() Uma forma de interação com o usuario
+/*window.alert()  //Mostra um alerta na tela "Uma janela"
+window.confirm()  //Mostra um campo de confirmação na tela "janela com botão OK e CANCELAR"
+window.prompt()   //Uma forma de interação com o usuario
+document.write()  //Escreve na tela (não em uma janela)
+.length           //Quantos caracteres a string tem ".length é um atributo por isso não tem ()"
+.toUpperCase()    //Transforma tudo em 'MAIÚSCULAS' "agora tem parenteses () por isso é um a metodo"
+.toLowerCase()    //Transdorma tudo em 'minúsculas'
+
+
+
+
 typeof - Para saber o tipo do conteúdo

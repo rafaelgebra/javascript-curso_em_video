@@ -1,9 +1,12 @@
-Para dar comentarios usar o seguinte
+//Para dar comentarios usar o seguinte
 
-// -> //comentario em uma inica linha
+// -> //comentario em uma inica linha - JS
+
 /**/ -> /*Comentario 
         em mais de uma 
-        linha*/
+        linha*/ - JS CSS
+
+//<!-- --> <!-- comentario em HTML-->
 
                         Modulo A
                 Conhecendo JavaScript.
@@ -14,13 +17,13 @@ JS-> Interação
 
 
                     HTML
-Texto, marcações e imagens ----> Não se programa em HTML (HTML não é linguagem de programação).
+Texto, marcações e imagens -> Não se programa em HTML (HTML não é linguagem de programação).
 
                     CSS
-Deixar tudo arrumado e bonito, organizado e armonico. ----> Não se programa em CSS ( CSS não é linguagem de programação).
+Deixar tudo arrumado e bonito, organizado e armonico. -> Não se programa em CSS ( CSS não é linguagem de programação).
 
                     JS
-O papel do JS faz o papel de interação, e até consegue fazer alteração no HTML. ----> O JS (JS é considerado linguarem de programação).
+O papel do JS faz o papel de interação, e até consegue fazer alteração no HTML. -> O JS (JS é considerado linguarem de programação).
 
 
                 Evolução do javaScript
@@ -37,7 +40,9 @@ sudo apt-get install -y nodejs)
 
 No JS não precisa do ; mas o JS aceita sem problema.
 
-                        Modulo B
+
+                       Modulo B
+
         Aula 5 - Váriaveis e Tipos de Primitivos
 
 Váriavel em JS é um pouco diferente
@@ -83,6 +88,63 @@ boolean = true folse
 Para saber o tipo de algumas coisa pode usar usar (typeof)
 
                 Aula 6 - Tratamento de Dados
+
+Manupulação de dados.
+Exemplo:
+
+                Converter conteudo de string para numero
+
+var n1 = Number.parseInt(window.prompt('Digite um número')) // converter o conteudo nativo strig para numero inteiro.
+var n2 = Number.parseFloat(window.prompt('Digite outro numero'))// converter o conteudo nativo strig para numero float.
+var s = n1 + n2
+window.alert('A soma dos valores é ' + s)
+
+Essa sintaxa é usada nas versões mais antigas.
+Nas verções mais novas é usado somente Number(n), mas se quiser forçar o sistema ao tipo Int ou Float só usar, Number.parseInt() para numeros inteiros e Number.parseFloat() para numeros flutuantes
+
+
+
+Converter conteudo numerido para strind
+só por na frente.
+Exemplo:
+
+1 + String(s) -> '1'
+        ou
+1.toString() -> '1'
+
+                Formatação String (Template string)
+
+Fica mais facil usar os templade string ${} para colocar os dados.
+Em vez de fazer assim:
+'O aluno ' + nome + ' com '+ idade + ' anos ' + ' tirou a nota ' + nota
+'O aluno Rafael com 34 anos tirou a 5.5'
+
+Pode ser feito assim:
+`O aluno ${nome} com ${idade} anos tirou a ${nota}`
+'O aluno Rafael com 34 anos tirou a 5.5'
+
+O resultado é o mesmo, porém é muito mais facil escrever com template string ${}
+Mais um exemplo:
+
+var nome = window.prompt('Qual o seu nome?')
+document.write(`O seu nome tem ${nome.length}`)
+
+
+Vamos usar bastante.
+Aspas '' simples e duplas "" para strings simples (sem interpolação)
+O uso da Crase `` para strings (usa template string)
+
+Exemplos:
+/*
+var s = 'JavaScript
+'Eu estou aprendendo s'         // não faz interpolação
+'Eu estou aprendendo' + s       // usa concatenação
+´eu estou aprendendo ${s}       // usa template string
+*/
+
+
+
+
 
                 Aula 7 - Operadores (PARTE1)
 
