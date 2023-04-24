@@ -1,0 +1,4 @@
+/*window.alert() Mostra um alerta na tela "Uma janela"
+window.confirm() Mostra um campo de confirmação na tela "janela com botão OK e CANCELAR"
+window.prompt() Uma forma de interação com o usuario
+typeof - Para saber o tipo do conteúdo

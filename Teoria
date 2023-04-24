@@ -1,5 +1,12 @@
-                Modulo A
-        Conhecendo JavaScript.
+Para dar comentarios usar o seguinte
+
+// -> //comentario em uma inica linha
+/**/ -> /*Comentario 
+        em mais de uma 
+        linha*/
+
+                        Modulo A
+                Conhecendo JavaScript.
 
 HTML -> Conteúdo
 CSS -> Estilo
@@ -29,6 +36,57 @@ sudo apt-get install -y nodejs)
 
 
 No JS não precisa do ; mas o JS aceita sem problema.
+
+                        Modulo B
+        Aula 5 - Váriaveis e Tipos de Primitivos
+
+Váriavel em JS é um pouco diferente
+
+No JS moderno, além de utulizar a palavra (var), também podemos usar a palavra (let)
+ 1 sinal de = se fala 'recebe'
+ A váriaveis são locais da memórias dos computador para armazenar dados.
+
+Em JS pode usa 3 tipos de aspas.
+Aspas duplas ""
+Aspas simpres ''
+Crase ``
+E cada uma tem uma importancia.
+
+Para identificar cada váriavel tem um nome definido.
+O nome se chama identificador e tem regras para isso.
+
+                Regra dos nomes das Variáveis (identificador)
+
+1 - Podem começar cim uma letra, $ ou _
+2 - NÃO pode começar com números
+3 - É possível usar letras e numeros juntos "Não COMEÇANDO com números"
+4 - É possivel usar acentros e símbulos
+5 - NÃO pode usar o espaço entre as letras
+6 - NÃO pode usar palavras RESERVADAS
+
+                Dicas para escolher o nome das variáveis
+
+1 - Maiúsculas e minúsculas fazer diferença
+2 - Tente escolher o nome coerente para as variáveis
+3 - Evite ser um programador 'programador alfabeto' ou um 'programador contator'
+
+        Resumindo 
+As variáveis server para armazenar dados
+
+
+                Tipos primos primordiais
+
+Number = 1 2  56 234 -12 -345 4.56 -34.5
+String = "Google" 'JavaScript' `Maria`
+boolean = true folse
+
+Para saber o tipo de algumas coisa pode usar usar (typeof)
+
+                Aula 6 - Tratamento de Dados
+
+                Aula 7 - Operadores (PARTE1)
+
+                Aula 8 - Operadores (PARTE2)
 
 
 
