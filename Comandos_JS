@@ -1,12 +1,15 @@
-/*window.alert()  //Mostra um alerta na tela "Uma janela"
-window.confirm()  //Mostra um campo de confirmação na tela "janela com botão OK e CANCELAR"
-window.prompt()   //Uma forma de interação com o usuario
-document.write()  //Escreve na tela (não em uma janela)
-.length           //Quantos caracteres a string tem ".length é um atributo por isso não tem ()"
-.toUpperCase()    //Transforma tudo em 'MAIÚSCULAS' "agora tem parenteses () por isso é um a metodo"
-.toLowerCase()    //Transdorma tudo em 'minúsculas'
+window.alert()                  //Mostra um alerta na tela "Uma janela"
+window.confirm()                //Mostra um campo de confirmação na tela "janela com botão OK e CANCELAR"
+window.prompt()                 //Uma forma de interação com o usuario
+document.write()                //Escreve na tela (não em uma janela)
+n1.length                         //Quantos caracteres a string tem ".length é um atributo por isso não tem ()"
+n1.toUpperCase()                  //Transforma tudo em 'MAIÚSCULAS' "agora tem parenteses () por isso é um a metodo"
+n1.toLowerCase()                  //Transdorma tudo em 'minúsculas'
+n1.toFixed()                      //Para fixar casas desimais no número.Ex: var n1 = 123.5 -> '123.5' \ n1.toFixad(2) -> '123.50' 
+n1.toFixed().repacle('.',',')     //Pode trocar uma coisa pela outra. Ex: var n1 = 123.5 -> '123.5' \ n1.toFixad(2).replace('.',',') -> 123,50. "Esse exemplo é para mostrar que pode trocar uma coisa pela outra, nesse caso trocou o . do numero por uma , "
+n1.toLocaleString('pt-br', {style: 'currency', corrency: 'BRL'})    //Localizar no dentro do JS. "Nesse caso esta localizando 'currency' que é o dinheiro e informado que quer que apareça e reais R$. Para quer em outros paises só alterar 'BRL'." 
 
 
 
 
-typeof - Para saber o tipo do conteúdo
+//typeof - Para saber o tipo do conteúdo.

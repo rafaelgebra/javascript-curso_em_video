@@ -142,12 +142,16 @@ var s = 'JavaScript
 ´eu estou aprendendo ${s}       // usa template string
 */
 
-
-
-
-
                 Aula 7 - Operadores (PARTE1)
 
+
+
+
+
+
+
+
+                
                 Aula 8 - Operadores (PARTE2)
 
 
