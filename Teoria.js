@@ -286,6 +286,40 @@ Recebe esse nome porque a operação tem três (3) parte (operandos)
 
 Vertende web do JavaScript, uma poderoso ferramenta que esta dentro do navegador, um conjunto de objetos do JavaScript.
 
+                        Aula 9 - Árvore DOM 
 
+A raiz da árvore DOM é o window (tudo dentro do JS esta dentro do window 'janela') e dentro do window tem varios outros objetos.
 
+Tudo que aparece na árvore DOM, são elementros e esses elementros podem ser selecionados
 
+1° Por Marca
+2° Por ID
+3° Por Nome
+4° Por Classe
+5° Por Seletor CSS
+
+                        Marca
+O comando é getElementsByTagName() // seleciona por TAG
+Ex:
+<script>
+var p1 = window.document.getElementsByTagName('p')[0]
+window.document.write('Esta escrito assim: ' + p1.innerText)
+p1.style.color = 'black'
+
+// o innerText pega somento o texto sem (as filhas) sem a formatação
+// o innerHTML pega o texto e (as filhas) as formatações
+</script>
+
+                        ID
+O camando é getElementById() // Seleciona por ID
+
+                        Nome
+O comando é getElementsByName() // seleciona por Name.
+Quando tem mais de um objeto, usa depois dos parênteses () os colchetes []
+
+                        Classe
+O comando é getElementsByClassName() // Seleciona por class
+
+                        Seletor
+O comando é querySelector()     // é mais facil para selecionar um objeto e mais novo
+O comando é querySelectorAll()  // a única diferena é que esse seletor é no plural
