@@ -269,8 +269,23 @@ todo resultado dessas espreções com operadores RELACIONAL é boolean (true, 'v
                
                         5 - ternário
 
-Recebe esse nome porque tem três (3) parte
+Recebe esse nome porque a operação tem três (3) parte (operandos)
 
-        teste
+        teste ? true : false
+
+1° o primeiro bloco é o teste lógico
+2° o segundo bloco é se o resultado for verdadeiro
+3° o terceiro bloco é se o resultado for falso
+
+        Ex:      media >= 7 ? "aprovado" : "reprovado"
+// dependendo do teste lógico o resultado vai ser aprovado ou reprovado
+
+
+
+                        Módulo C - Entendendo o DOM/Document Object Model
+
+Vertende web do JavaScript, uma poderoso ferramenta que esta dentro do navegador, um conjunto de objetos do JavaScript.
+
+
 
 
