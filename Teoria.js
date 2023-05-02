@@ -292,6 +292,19 @@ A raiz da árvore DOM é o window (tudo dentro do JS esta dentro do window 'jane
 
 Tudo que aparece na árvore DOM, são elementros e esses elementros podem ser selecionados
 
+                Exemplo de árvore usando o ex005.html
+
+                  location ->
+        window -> document      ->HTML  -> head -> meta
+                                                -> title
+                                        -> body -> h1
+                                                -> p
+                                                -> p    -> strong
+                                                -> div
+                  history  ->
+
+Esses documentos podem ser acesado pelos seguit
+
 1° Por Marca
 2° Por ID
 3° Por Nome
