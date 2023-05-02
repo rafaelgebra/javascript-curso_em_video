@@ -142,7 +142,46 @@ var s = 'JavaScript
 ´eu estou aprendendo ${s}       // usa template string
 */
 
-                Aula 7 - Operadores (PARTE1)
+                Aula 7  - Operadores (PARTE1)
+
+1 - aritimético
+Soma                    +       5 + 2 -> 7
+Subtroção               -       5 - 2 -> 3
+Multiplicação           *       5 * 2 -> 10
+Divisão real            /       5 / 2 -> 2.5
+Divisão inteira         %       5 % 2 -> 1 ("Resto da Divisão inteira" )
+Potência                **      5 / 2 -> 25
+
+Muito importante tomar cuidado com a precedência de operadores.
+
+1 - ()
+2 - **
+3 - * / % "Entre esses operadores aritiméticos não tem prioridade, é calculado o que aparecer primeiro"
+
+Ex:
+
+var a = 5+3             -> 8
+var b = a%5             -> 5
+var c = 5*b** 2         -> 45
+var d = 10-1/2          -> 6
+var e = 6*2/d           -> 2
+var f = b%e+4/e         -> 3
+
+
+2 - atribuição
+
+Auto-atribuição         Auto-atribuição (simplificada)          operadores de incremento
+
+var n = 3
+n = n + 4               n += 4  -> 7                            n ++
+n = n - 5               n -= 5  -> 2                            n --
+n = n * 4               n *= 4  -> 8
+n = n / 2               n /= 2  -> 4
+n = n ** 2              n **= 2 -> 16
+n = n % 5               n %= 5  -> 1
+
+
+
 
 
 
@@ -155,6 +194,10 @@ var s = 'JavaScript
                 Aula 8 - Operadores (PARTE2)
 
 
+                3 - relacionais
 
+                4 - lógicos
+                
+                5 - ternário
 
 
