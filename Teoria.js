@@ -144,7 +144,8 @@ var s = 'JavaScript
 
                 Aula 7  - Operadores (PARTE1)
 
-1 - aritimético
+                        1 - aritimético
+
 Soma                    +       5 + 2 -> 7
 Subtroção               -       5 - 2 -> 3
 Multiplicação           *       5 * 2 -> 10
@@ -156,7 +157,8 @@ Muito importante tomar cuidado com a precedência de operadores.
 
 1 - ()
 2 - **
-3 - * / % "Entre esses operadores aritiméticos não tem prioridade, é calculado o que aparecer primeiro"
+3 - * / %       "Entre esses operadores aritiméticos não tem prioridade, é calculado o que aparecer primeiro"
+4 - + -         "Entre esses operadores aritiméticos não tem prioridade, é calculado o que aparecer primeiro"
 
 Ex:
 
@@ -168,7 +170,7 @@ var e = 6*2/d           -> 2
 var f = b%e+4/e         -> 3
 
 
-2 - atribuição
+                                2 - atribuição
 
 Auto-atribuição         Auto-atribuição (simplificada)          operadores de incremento
 
@@ -180,24 +182,95 @@ n = n / 2               n /= 2  -> 4
 n = n ** 2              n **= 2 -> 16
 n = n % 5               n %= 5  -> 1
 
-
-
-
-
-
-
-
-
-
-
-                
                 Aula 8 - Operadores (PARTE2)
 
+                        3 - relacionais
 
-                3 - relacionais
+maior           >       5>2     -> true
+menor           <       7<4     -> false
+maior ou igual  >=      8>=8     -> true
+menor ou igual  <=      9<=7    -> false    
+igual           ==      5==5    -> true
+diferebte       !=      4!=4    -> false
 
-                4 - lógicos
-                
-                5 - ternário
+todo resultado dessas espreções com operadores RELACIONAL é boolean (true, 'verdadeiro')( false, 'falso')
+
+5 == 5          -> true         operadores de identidade
+5 == '5'        -> true         operadores de identidade
+5 === '5'       -> false        operador de igualdade restrita
+5 === 5         -> true         operador de igualdade restrita
+5 !== 5         -> false        operador desigual restrito
+
+=== se le "identico". Aqui é analizado que o conteúdo é igual e do mesmo tipo. 
+!== se le "desigual"
+
+
+                        4 - lógicos
+
+!    ->   negação     -> não    tem duas opções (true ou false)                  
+&&   ->   conjunção   -> e      Esse operador faz uma comparação entre dois valores lógicos. Operador binario
+||   ->   disjunção   -> ou
+
+                        Operador ! (não) é o oposto da afirmação
+
+        ! -> true  -> false
+        ! -> false -> true
+
+                        Operador && (e) só aceita se os dois afirmações forem verdadeiras
+
+        true  && true   ->      true           
+        true  && false  ->      false
+        false && true   ->      false
+        false && false  ->      false
+
+                        Operador || (ou) Esse operador aceita se umas das duas afirmações forem verdadeiras. Se as duas afirmações forem falsa, entrao da true
+
+        true  || true   ->      true           
+        true  || false  ->      true
+        false || true   ->      true
+        false || false  ->      false  
+ 
+        
+                Orderm de precedência de todo os operadores até agora
+
+1 - aritimético, tem ondem de precedência interna.
+        
+
+        Esses são os operadores aritiméticos
+
+        Soma                    +       5 + 2 -> 7
+        Subtroção               -       5 - 2 -> 3
+        Multiplicação           *       5 * 2 -> 10
+        Divisão real            /       5 / 2 -> 2.5
+        Divisão inteira         %       5 % 2 -> 1 ("Resto da Divisão inteira" )
+        Potência                **      5 / 2 -> 25
+        
+        Essa é a onder interna dos operadores aritiméticos
+                1 - ()
+                2 - **
+                3 - * / %       "Entre esses operadores aritiméticos não tem prioridade, é calculado o que aparecer primeiro"
+                4 - + -         "Entre esses operadores aritiméticos não tem prioridade, é calculado o que aparecer primeiro"
+
+
+2 - relacionais, não tem ordem de precedência interna
+
+        maior           >       5>2     -> true
+        menor           <       7<4     -> false
+        maior ou igual  >=      8>=8     -> true
+        menor ou igual  <=      9<=7    -> false    
+        igual           ==      5==5    -> true
+        diferebte       !=      4!=4    -> false                
+
+3 - lógicos, tem ordem de precedência interna
+
+        1° !    ->   negação     -> não                   
+        2° &&   ->   conjunção   -> e      
+        3° ||   ->   disjunção   -> ou
+               
+                        5 - ternário
+
+Recebe esse nome porque tem três (3) parte
+
+        teste
 
 
