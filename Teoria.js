@@ -307,11 +307,11 @@ Tudo que aparece na árvore DOM, são elementros e esses elementros podem ser se
 
 Esses documentos podem ser acesado pelos seguit
 
-1° Por Marca                    comando é getElementsByTagName()
-2° Por ID                       comando é getElementById()
-3° Por Nome                     comando é getElementsByName()
-4° Por Classe                   comando é getElementsByClassName()
-5° Por Seletor CSS              comando é querySelector() e querySelectorAll
+1° Por Marca / TagName                  comando é getElementsByTagName()
+2° Por ID    /ID                        comando é getElementById()
+3° Por Nome  /Name                      comando é getElementsByName()
+4° Por Classe / ClassName               comando é getElementsByClassName()
+5° Por Seletor CSS / querySelector      comando é querySelector() e querySelectorAll
 
                         Marca
 O comando é getElementsByTagName() // seleciona por TAG a grande vantagem é que pode selecionar mais de um item
@@ -338,3 +338,80 @@ O comando é getElementsByClassName() // Seleciona por class
                         Seletor
 O comando é querySelector()     // é mais facil para selecionar um objeto e mais novo
 O comando é querySelectorAll()  // a única diferena é que esse seletor é no plural
+
+                        Aula 10 Eventos DOM
+
+Evento é tudo o que pode acontecer com um elemento.
+
+Funções é um conjuntos de linhas/códigos que somente vai ser executado quando o evento ocorrem.
+
+um bloco em JS é representado com {} e é nomeado como function { }. no JS existe essa função sem conteudo dentro do {}, é conhecida função anomima.
+Mas para que o metodo possa funcionar tem que dar um nome para a fonção e geralmente os nomes que é dado para essas funções é o nome do evento da função.
+Ex: function ação(){
+
+}
+opcionalmente pode por dentro dos () os parametros um ou varios.
+Ex: function ação('o parametro escolhido') {
+
+}
+
+
+                        Exemplo de evento DOM
+
+onmouseenter='entrou()'
+onmousemove='movendo()'
+onmousedown='clicar_e_segurar()'
+onmouseup='solta_o_click()'
+onclick='click()'
+onmouseout='saiu()'
+
+                        Exemplos pratico
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja...
+
+    </div>
+    <script>
+        var a = window.document.getElementById('area')
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+        }
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+    </script>
+</body>
+
+                        exemplo simplificado
+
+Essa forma de simplificação ajuda não deixar o HTML poluido. pode deixar tudo no JS. com a função addEventListener, ('aqui sendo o evento, aqui sendo o nome da function')
+
+<body>
+        <div id="area">
+                interaja...
+        </div>
+        <script>
+                a
+                var a = window.document.getElementById('area')
+                a.addEventListener('click', clicar)
+                a.addEventListener('mouseenter', entrar)
+                a.addEventListener('mouseout', sair)
+                function clicar() {
+                        a.innerText = 'Clicou!'
+                        a.style.background = 'red'
+                }
+                function entrar() {
+                        a.innerText = 'Entrou!'
+                }
+                function sair() {
+                        a.innerText = 'Saiu!'
+                        a.style.background = 'green'
+                }
+        </script>
+
+                        detecção de erros JS
