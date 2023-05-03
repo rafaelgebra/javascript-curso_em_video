@@ -207,8 +207,10 @@ todo resultado dessas espreções com operadores RELACIONAL é boolean (true, 'v
 
                         4 - lógicos
 
-!    ->   negação     -> não    tem duas opções (true ou false)                  
+!    ->   negação     -> não    tem duas opções (true ou false)    
+
 &&   ->   conjunção   -> e      Esse operador faz uma comparação entre dois valores lógicos. Operador binario
+
 ||   ->   disjunção   -> ou
 
                         Operador ! (não) é o oposto da afirmação
@@ -305,14 +307,14 @@ Tudo que aparece na árvore DOM, são elementros e esses elementros podem ser se
 
 Esses documentos podem ser acesado pelos seguit
 
-1° Por Marca
-2° Por ID
-3° Por Nome
-4° Por Classe
-5° Por Seletor CSS
+1° Por Marca                    comando é getElementsByTagName()
+2° Por ID                       comando é getElementById()
+3° Por Nome                     comando é getElementsByName()
+4° Por Classe                   comando é getElementsByClassName()
+5° Por Seletor CSS              comando é querySelector() e querySelectorAll
 
                         Marca
-O comando é getElementsByTagName() // seleciona por TAG
+O comando é getElementsByTagName() // seleciona por TAG a grande vantagem é que pode selecionar mais de um item
 Ex:
 <script>
 var p1 = window.document.getElementsByTagName('p')[0]
@@ -324,7 +326,7 @@ p1.style.color = 'black'
 </script>
 
                         ID
-O camando é getElementById() // Seleciona por ID
+O comando é getElementById() // Seleciona por ID
 
                         Nome
 O comando é getElementsByName() // seleciona por Name.

@@ -18,7 +18,8 @@ n1.toFixed().repacle('.',',')     //Pode trocar uma coisa pela outra. Ex: var n1
 
 n1.toLocaleString('pt-br', {style: 'currency', corrency: 'BRL'})    //Localizar no dentro do JS. "Nesse caso esta localizando 'currency' que é o dinheiro e informado que quer que apareça e reais R$. Para quer em outros paises só alterar 'BRL'." 
 
-getElementsByTagName() Consegue selecionar varios objetos do mesmo tipo
+.getElementsByTagName('p')[0] as () é para indicar de qual parte é para acessar a informação, o [] é para escolher qual o componerte ex: 1, 2, 3, 4...
+
 
 
 

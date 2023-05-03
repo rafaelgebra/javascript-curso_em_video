@@ -14,14 +14,23 @@
     </style>
 </head>
 <body>
-    <h1>inicianco Estudos com DOM</h1>
+    <h1 id="t1">inicianco Estudos com DOM</h1>
+    <h1 id="t1_1">teste 2</h1>
     <p id="p1">Aqui vai o resultado</p>
     <p id="p2">Aprendendo a usar o <strong>DOM</strong> em Java Script</p>
     <div id="msg">Clique em mim</div>
     <script>
-        var p1 = window.document.getElementsByTagName('p')[0]
-        window.document.write('Esta escrito assim: ' + p1.innerText)
+        
+        t1.style.color = 'black'
+        t1_1.style.background = 'black'
+        var p1 = window.document.getElementsByTagName('p')[0] // A grande 
+        window.document.write(p1.innerText)
         p1.style.color = 'black'
+        var p2 = window.document.getElementById('p2')
+        window.document.write(p2.innerHTML)
+        window.document.write('<br>')
+        window.document.write(p2.innerText)
+
         var d = window.document.getElementById('msg')
         d.style.background = 'green'
         d.innerText = 'Estou aguardando...'
@@ -30,7 +39,7 @@
         var p2 = window.document.querySelector('p#p2')
         p2.style.background = 'black'
         window.document.write('<br> olá')
-        .document.
+
 
     </script>
 </body>
