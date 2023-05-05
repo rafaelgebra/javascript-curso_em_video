@@ -21,6 +21,27 @@ n1.toLocaleString('pt-br', {style: 'currency', corrency: 'BRL'})    //Localizar 
 .getElementsByTagName('p')[0] as () é para indicar de qual parte é para acessar a informação, o [] é para escolher qual o componerte ex: 1, 2, 3, 4...
 
 
-
-
 //typeof - Para saber o tipo do conteúdo.
+
+Esses comandos acima só funcionam dentro do <script></script> no HTML
+
+                    Comando dentro do JS.
+
+console.log('')                     // é para escrever na tela
+
+//para pegar a hora tem que ter esses dois comando juntos
+var agora = new Date()              // informa a data do SISTEMA
+var hora =  agora.getHours()        // pega a hora de dentro new Data()
+var dia = agora.getDay()            // pega o dia porém em numero 0 á 6
+                                    /*
+                                        0 = Domingo
+                                        1 = Segunda
+                                        2 = Terça
+                                        3 = Quarta
+                                        4 = Quinta
+                                        5 = Sexta
+                                        6 = Sábado
+
+                                    */
+
+

@@ -415,3 +415,122 @@ Essa forma de simplificação ajuda não deixar o HTML poluido. pode deixar tudo
         </script>
 
                         detecção de erros JS
+
+
+                                Modulo D
+
+                                Aula 11 
+                        
+                        Condições em JavaScript (parte 1)
+
+As condições é uma estrutura de controle muito importante para a programação.
+
+Condições simples               Condições compostas
+
+if (condição) {         |       if (condição) {            
+        true            |               true
+}                       |        }                  
+                        |     
+                        |       else {
+                        |               false
+                        |        }
+
+                        COndições em JavaScript (parte 2)
+
+3 - Condições Aninhadas
+
+Condições aninhadas é por uma condição dentro de outra condição.
+
+                Ex: Normal
+
+var idade = 16
+if (idade < 16) {
+    console.log('Não vota')
+}
+else {
+    if (idade >= 16 && idade < 18){
+        console.log('Voto opcional')
+    }
+    else {
+        console.log('voto obrigatorio')
+    }
+}
+
+                Ex: Simplificado
+
+var idade = 16
+if (idade < 16) {
+    console.log('Não vota')
+}
+else if (idade < 18){ // Por ser muito usado (else) e (if) pode colocar junto else if (){}                  
+        console.log('Voto opcional')
+}
+else {
+        console.log('Voto Obrigatorio')
+}
+
+4 - Condições Múltiplas
+
+Com a condição múltipla que serve para valores fixos. Não é muito usada com intervalos de valores. 
+
+A condição múltiplas tem a possibilidade de mais valore do que (if) e (else). 
+
+switch (expreção) {                     switch (Key) {
+        case valor1:                            case value:
+
+                break;                                  break;
+
+        case valor2:                            case value:
+
+                break;                                  break;
+
+        default:                                default:
+                break;                                  break;
+}                                       }
+
+O break é obrigatorio no switch senão da ruim.
+
+Exemplo pratico.
+
+                var agora = new Date()
+                var diaSem = agora.getDay()
+                /*
+                0 = Domingo
+                1 = Segunda
+                2 = Terça
+                3 = Quarta
+                4 = Quinta
+                5 = Sexta
+                6 = Sábado
+
+                */
+                switch (diaSem) {
+                case 0:
+                        console.log('Domingo')
+                        break;
+                case 1:
+                        console.log('Seguinda')
+                        break;
+                case 2:
+                        console.log('Terca')
+                        break;
+                case 3:
+                        console.log('Quarta')
+                        break;
+                case 4:
+                        console.log('Quinta')
+                        break;
+                case 5:
+                        console.log('Sexta')
+                        break;
+                case 6:
+                        console.log('Sábado')
+                default:
+                        console.log('[ERRo]. Dia inválido')
+                        break;
+                }
+
+                console.log(diaSem)
+
+
+                        Exercícios
