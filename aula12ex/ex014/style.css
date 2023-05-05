@@ -20,12 +20,11 @@ section {
 }
 
 div {
-
+    text-align: center;
+    padding: 5px;
 }
 
-div {
 
-}
  footer {
     color: white;
     text-align: center;
