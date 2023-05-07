@@ -1,6 +1,6 @@
 //Para dar comentarios usar o seguinte
 
-// -> //comentario em uma inica linha - JS
+// -> //comentario em uma unica linha - JS
 
 /**/ -> /*Comentario 
         em mais de uma 
@@ -47,8 +47,8 @@ No JS não precisa do ; mas o JS aceita sem problema.
 
 Váriavel em JS é um pouco diferente
 
-No JS moderno, além de utulizar a palavra (var), também podemos usar a palavra (let)
- 1 sinal de = se fala 'recebe'
+No JS moderno, além de ultulizar a palavra (var), também podemos usar a palavra (let)
+ O sinal de = se fala 'recebe'
  A váriaveis são locais da memórias dos computador para armazenar dados.
 
 Em JS pode usa 3 tipos de aspas.
@@ -62,7 +62,7 @@ O nome se chama identificador e tem regras para isso.
 
                 Regra dos nomes das Variáveis (identificador)
 
-1 - Podem começar cim uma letra, $ ou _
+1 - Podem começar sim uma letra, $ ou _
 2 - NÃO pode começar com números
 3 - É possível usar letras e numeros juntos "Não COMEÇANDO com números"
 4 - É possivel usar acentros e símbulos
@@ -75,11 +75,10 @@ O nome se chama identificador e tem regras para isso.
 2 - Tente escolher o nome coerente para as variáveis
 3 - Evite ser um programador 'programador alfabeto' ou um 'programador contator'
 
-        Resumindo 
-As variáveis server para armazenar dados
+Resumindo -> As variáveis server para armazenar dados
 
 
-                Tipos primos primordiais
+                        Tipos primos primordiais
 
 Number = 1 2  56 234 -12 -345 4.56 -34.5
 String = "Google" 'JavaScript' `Maria`
@@ -87,12 +86,12 @@ boolean = true folse
 
 Para saber o tipo de algumas coisa pode usar usar (typeof)
 
-                Aula 6 - Tratamento de Dados
+                                Aula 6
+                        Tratamento de Dados
 
-Manupulação de dados.
-Exemplo:
-
-                Converter conteudo de string para numero
+                        Manipulação de dados.
+                        
+Exemplo: Converter conteudo de string para numero
 
 var n1 = Number.parseInt(window.prompt('Digite um número')) // converter o conteudo nativo strig para numero inteiro.
 var n2 = Number.parseFloat(window.prompt('Digite outro numero'))// converter o conteudo nativo strig para numero float.
