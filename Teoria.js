@@ -572,15 +572,16 @@ Para conseguir chegar do ponto A para o ponto B isso se chama extrutura de contr
 1- A mais simples de todas é a estutuda de sequência/sequêncialmente.
 2- A segunda forma é por condições (if), (else) e (else if). 
 3- A terceira que é a repetição/laco é que que vamos ver agora
-                1- é feito um teste logico e estando correto ele volta e faz o teste novamente até o teste logico for falço
+
+                                        Repetição (while 'enquanto') 
  
-                                Repetição por teste lógico no inicio
+                                Repetição por teste lógico no inicio 
 
                 Ex:
                 while(condição) {                               var c = 1
-                                                                while (c <= 7) {
-                }                                               console.log(`Passo ${c}`)
-                                                                c++ // c = c + 1 e simplificado c += 1
+                        /*blobo */                              while (c <= 7) {
+                }                                                       console.log(`Passo ${c}`)
+                                                                        c++ // c = c + 1 e simplificado c += 1
                                                                 }
 
 
@@ -591,7 +592,44 @@ Para conseguir chegar do ponto A para o ponto B isso se chama extrutura de contr
                 }
 
                                 Repetição por teste lógico no final
+ 
+                do{                                     var c =1 
+                         /*blco */                               do {
+                        } while (condição)                      console.log(`Passo${c}`)
+                                                                c++ // c = c + 1 e simplificado c += 1
+                                                        }while (c < 7)
 
-                do{
+                                        
+                                        Aula 14
+                                        
+                                        Repetição (for 'para') com vareavel de controle
 
-                } while (condição)
+Com a estrutura de repetição (for) é feito basicamente 3 coisas.
+1 - inicialização       = inicio
+2 - teste lógico        = teste
+3 - incremento          = incr
+
+for(inicio;teste;incr) {
+        /*bloco*/
+}
+
+Ex:
+/*var c=1                               
+while(c<=10){
+    console.log(`Passo ${c}`)
+    c++
+}
+*/
+
+for (var c=1; c<=10; c++){                              for (car c=1; c <= 10; c++){
+        /*bloco*/                                                 console.log(`Passo ${c}`)
+}                                                       }
+
+
+Os dois codigos tem a mesma funcionalidade, mas quando tem um limite nas execuções
+
+for (var c=1; c<=5; c++){
+        console.log(`Passo ${c}`)
+    
+    }
+console.log('Fim')
