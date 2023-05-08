@@ -559,4 +559,39 @@ Exemplo pratico.
                 
                 }       
                 }
-                            
+
+
+
+                                Modulo E
+
+                                Aula 13
+
+                        Repetições/lacos/iterações
+
+Para conseguir chegar do ponto A para o ponto B isso se chama extrutura de controle e tem farias forma de fazer isso.
+1- A mais simples de todas é a estutuda de sequência/sequêncialmente.
+2- A segunda forma é por condições (if), (else) e (else if). 
+3- A terceira que é a repetição/laco é que que vamos ver agora
+                1- é feito um teste logico e estando correto ele volta e faz o teste novamente até o teste logico for falço
+ 
+                                Repetição por teste lógico no inicio
+
+                Ex:
+                while(condição) {                               var c = 1
+                                                                while (c <= 7) {
+                }                                               console.log(`Passo ${c}`)
+                                                                c++ // c = c + 1 e simplificado c += 1
+                                                                }
+
+
+                function comerPizza() {                         
+                        while (temFatia()) {
+
+                        }
+                }
+
+                                Repetição por teste lógico no final
+
+                do{
+
+                } while (condição)

@@ -21,6 +21,12 @@ n1.toLocaleString('pt-br', {style: 'currency', corrency: 'BRL'})    //Localizar 
 .getElementsByTagName('p')[0] as () é para indicar de qual parte é para acessar a informação, o [] é para escolher qual o componerte ex: 1, 2, 3, 4...
 
 
+img.setAttribute('src', 'fotos/bebem.png') // esse comando é para acessar uma foto pelo JavaScript
+
+
+
+
+
 //typeof - Para saber o tipo do conteúdo.
 
 Esses comandos acima só funcionam dentro do <script></script> no HTML
