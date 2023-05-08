@@ -621,15 +621,9 @@ while(c<=10){
 }
 */
 
-for (var c=1; c<=10; c++){                              for (car c=1; c <= 10; c++){
-        /*bloco*/                                                 console.log(`Passo ${c}`)
-}                                                       }
+for (var c=1; c<=10; c++){              for (car c=1; c <= 10; c++){
+        /*bloco*/                               console.log(`Passo ${c}`)
+}                                       }
 
 
-Os dois codigos tem a mesma funcionalidade, mas quando tem um limite nas execuções
-
-for (var c=1; c<=5; c++){
-        console.log(`Passo ${c}`)
-    
-    }
-console.log('Fim')
+Tanto (white) quanto (for) tem tem a mesma funcionalidade, mas quando tem um limite nas execuções se utliza é mais usado for
