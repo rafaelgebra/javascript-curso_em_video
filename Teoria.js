@@ -8,6 +8,13 @@
 
 //<!-- --> <!-- comentario em HTML-->
 
+Dica para por um emojin no JS tem que usar o seguinte comando \u{}.
+Ex:
+U+1F449  -  \u{1F449}
+res.innerHTML += `\u{1F449}`
+
+
+
                         Modulo A
                 Conhecendo JavaScript.
 
