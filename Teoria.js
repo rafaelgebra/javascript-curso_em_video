@@ -296,14 +296,14 @@ Vertende web do JavaScript, uma poderoso ferramenta que esta dentro do navegador
 
                         Aula 9 - Árvore DOM 
 
-A raiz da árvore DOM é o window (tudo dentro do JS esta dentro do window 'janela') e dentro do window tem varios outros objetos.
+A raiz da árvore DOM é começa no window (tudo dentro do JS esta dentro do window 'janela') e dentro do window tem varios outros objetos.
 
 Tudo que aparece na árvore DOM, são elementros e esses elementros podem ser selecionados
 
                 Exemplo de árvore usando o ex005.html
 
                   location ->
-        window -> document      ->HTML  -> head -> meta
+        window -> document ->   html    -> head -> meta
                                                 -> title
                                         -> body -> h1
                                                 -> p
@@ -313,10 +313,10 @@ Tudo que aparece na árvore DOM, são elementros e esses elementros podem ser se
 
 Esses documentos podem ser acesado pelos seguit
 
-1° Por Marca / TagName                  comando é getElementsByTagName()
+1° Por Marca / TagName                  comando é getElementsByTagName('')[]
 2° Por ID    /ID                        comando é getElementById()
-3° Por Nome  /Name                      comando é getElementsByName()
-4° Por Classe / ClassName               comando é getElementsByClassName()
+3° Por Nome  /Name                      comando é getElementsByName('')[]
+4° Por Classe / ClassName               comando é getElementsByClassName('')[]
 5° Por Seletor CSS / querySelector      comando é querySelector() e querySelectorAll
 
                         Marca
@@ -351,7 +351,7 @@ Evento é tudo o que pode acontecer com um elemento.
 
 Funções é um conjuntos de linhas/códigos que somente vai ser executado quando o evento ocorrem.
 
-um bloco em JS é representado com {} e é nomeado como function { }. no JS existe essa função sem conteudo dentro do {}, é conhecida função anomima.
+Um bloco em JS é representado com {} e é nomeado como function { }. no JS existe essa função sem conteudo dentro do {}, é conhecida função anomima.
 Mas para que o metodo possa funcionar tem que dar um nome para a fonção e geralmente os nomes que é dado para essas funções é o nome do evento da função.
 Ex: function ação(){
 
@@ -397,6 +397,7 @@ onmouseout='saiu()'
 
 Essa forma de simplificação ajuda não deixar o HTML poluido. pode deixar tudo no JS. com a função addEventListener, ('aqui sendo o evento, aqui sendo o nome da function')
 
+Ex1:
 <body>
         <div id="area">
                 interaja...
@@ -420,7 +421,28 @@ Essa forma de simplificação ajuda não deixar o HTML poluido. pode deixar tudo
                 }
         </script>
 
-                        detecção de erros JS
+Ex2:
+<body>
+        <h1>Somando Valores</h1>
+        <input type="number" name="txtn1" id="txtn1"> + 
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="res">resultado</div>
+
+        <script>
+                function somar() {
+                        let tn1 = window.document.getElementById('txtn1')
+                        let tn2 = window.document.querySelector('input#txtn2')
+                        let res = window.document.querySelector("div#res")
+                        let n1 = Number(tn1.value)
+                        let n2 = Number(tn2.value)
+                        let s = n1 + n2
+                        res.innerHTML = `A soma de ${n1} e ${n2} é igual a <strong>${s}</strong>`
+                }
+        </script>
+</body>
+
+                        DETECÇÃO de erros JS
 
 
                                 Modulo D
