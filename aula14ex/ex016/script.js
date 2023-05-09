@@ -5,7 +5,7 @@ function contar(){
     let res = document.getElementById('res')
 
         if(inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-            res.innerHTML = `\u{1F6A8}  Impossivel contar  \u{1F6A8}`
+            res.innerHTML = `<br> \u{1F6A8}  Impossivel contar  \u{1F6A8} <br>`
             //window.alert(`[ERRO] Faltam dados`)
             
         }else {
