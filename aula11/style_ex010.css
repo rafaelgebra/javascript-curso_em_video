@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    font: normal 1.3em Arial;
+}
+div#res {
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+}
+#mul{
+    color: red;
+}
