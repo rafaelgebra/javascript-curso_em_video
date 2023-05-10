@@ -9,6 +9,7 @@
 </head>
 <body>  
     <h1>Sistema de multas</h1>
+    <h2>O limite nessa via é de <strong>60Km\h</strong></h2>
     Velocidade do carro:<input type="number" name="txtvel" id="txtvel">Km/h
     <input type="button" value="verificar" onclick="calcular()">
     <div id="res">
@@ -16,12 +17,15 @@
     </div>
     <script>
         function calcular(){
+            var lim = 60
             var txtv = window.document.getElementById('txtvel')
             var res = window.document.querySelector('div#res')
             var vel = Number(txtv.value)
-            res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}Km/h</strong></p>`
-            if (vel > 60) {
+            res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel} Km/h</strong></p>`
+            if (vel > lim) {
                 res.innerHTML += `<p> Você esta <strong id="mul">MULTADO</strong> por excesso de velocidade`
+            } else {
+                res.innerHTML += `Parabéns não fez mais do que a <strong>obrigação</strong> <br>`
             }
             res.innerHTML += `Dirija sempre com <strong>cinto de segurnça</strong>`
         }

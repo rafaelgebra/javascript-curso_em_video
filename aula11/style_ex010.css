@@ -2,6 +2,12 @@
 body {
     font: normal 1.3em Arial;
 }
+
+h2 {
+    font: normal 1em Arial;
+    color: blue;
+}
+
 div#res {
     max-width: 400px;
     border-radius: 10px;

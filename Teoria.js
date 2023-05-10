@@ -460,13 +460,17 @@ if (condição) {         |       if (condição) {
                         |               false
                         |        }
 
-                        COndições em JavaScript (parte 2)
+                        
+                        
 
-3 - Condições Aninhadas
+                        Condições em JavaScript (parte 2)
+
+                        3 - Condições Aninhadas
+
 
 Condições aninhadas é por uma condição dentro de outra condição.
 
-                Ex: Normal
+                                Ex: Normal
 
 var idade = 16
 if (idade < 16) {
@@ -481,20 +485,24 @@ else {
     }
 }
 
-                Ex: Simplificado
+                                Ex: Simplificado
 
 var idade = 16
 if (idade < 16) {
     console.log('Não vota')
 }
-else if (idade < 18){ // Por ser muito usado (else) e (if) pode colocar junto else if (){}                  
+else if (idade < 18){ // Por ser muito usado (else) e (if) pode colocar junto else if (){}. Mas sempre termina com else {}.                  
         console.log('Voto opcional')
 }
 else {
         console.log('Voto Obrigatorio')
 }
 
-4 - Condições Múltiplas
+
+                                4 - Condições Múltiplas
+
+
+
 
 Com a condição múltipla que serve para valores fixos. Não é muito usada com intervalos de valores. 
 
@@ -513,7 +521,9 @@ switch (expreção) {                     switch (Key) {
                 break;                                  break;
 }                                       }
 
+
 O break é obrigatorio no switch senão da ruim.
+A condição múltiplas são mais ulteis para situações pontuais/fixa
 
 Exemplo pratico.
 
@@ -551,10 +561,9 @@ Exemplo pratico.
                 case 6:
                         console.log('Sábado')
                 default:
-                        console.log('[ERRo]. Dia inválido')
+                        console.log('[ERRO]. Dia inválido')
                         break;
                 }
-
                 console.log(diaSem)
 
 
