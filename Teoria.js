@@ -442,9 +442,6 @@ Ex2:
         </script>
 </body>
 
-                        DETECÇÃO de erros JS
-
-
                                 Modulo D
 
                                 Aula 11 

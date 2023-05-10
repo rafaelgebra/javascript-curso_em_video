@@ -27,6 +27,16 @@ img.setAttribute('src', 'fotos/bebem.png') // esse comando é para acessar uma f
 
 
 
+
+
+
+
+
+
+
+
+
+
 //typeof - Para saber o tipo do conteúdo.
 
 Esses comandos acima só funcionam dentro do <script></script> no HTML

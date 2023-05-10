@@ -15,13 +15,15 @@
 </div>
     <script>
         function verificar() {
+            var país = 'Brasil'
             var txts = window.document.getElementById('txts')
             var res = window.document.getElementById('res')
-            if (txts >= 'a') {
-                res.innerHTML = `Você é Estrangeiro!`
+            let txts1 = (txts.value)
+            if (txts1 == país ) {
+                res.innerHTML = `Você é Brasileiro!`
             }
             else{
-                res.innerHTML = `Você é Brasileiro!`
+                res.innerHTML = `Você é Estrangeiro!`
             }
         }
     </script>
