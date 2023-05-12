@@ -18,6 +18,5 @@ function carregar() {
         msg.innerHTML += ` <br> Boa Noite!!`
         img.src = 'fotos/noite.png'
         document.body.style.background = '#515154'
-
-}       
+    }     
 }

@@ -662,3 +662,42 @@ for (var c=1; c<=10; c++){              for (car c=1; c <= 10; c++){
 
 
 Tanto (white) quanto (for) tem tem a mesma funcionalidade, mas quando tem um limite nas execuções se utliza é mais usado for
+
+
+
+                        Módulo F
+
+                Aula 15 - Váriaveis Compostas
+
+A váriavel composta pode ser colocado varios dados dentro da mesma váriavel.
+
+No JavaScript para fazer uma váriavel composta da seguinte forma:
+Ex:
+let a = []
+let a = [1, 4, 8, 9]
+         0, 1, 2, 3 "esses números/identificação" recebem uma "chave/indíce"
+
+         Sempre que ouvir váriavel composta sempre se lembre de ARRAY/VETOR
+         Por sua vez o ARRAY/VETOR é composto de elementos e cada elemento é um PAR que é composto por (o espaço da mémoria, o valor colocado dentro dele e o índice/chave de indentificação)
+
+
+
+
+
+
+
+
+
+                Aula 16 - Funções
+
+
+                Exercícios JavaScript(Parte 7)
+
+
+
+                Exercícios JavaScript(Parte 8)
+
+
+
+
+                Aula 17 - 17 - Próximos Passos 
