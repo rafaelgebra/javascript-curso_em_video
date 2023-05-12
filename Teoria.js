@@ -677,13 +677,69 @@ let a = []
 let a = [1, 4, 8, 9]
          0, 1, 2, 3 "esses números/identificação" recebem uma "chave/indíce"
 
-         Sempre que ouvir váriavel composta sempre se lembre de ARRAY/VETOR
-         Por sua vez o ARRAY/VETOR é composto de elementos e cada elemento é um PAR que é composto por (o espaço da mémoria, o valor colocado dentro dele e o índice/chave de indentificação)
+Sempre que ouvir váriavel composta, sempre se lembre de ARRAY/VETOR.
+Por sua vez o ARRAY/VETOR é composto de elementos e cada elemento é um PAR que é composto por (o espaço da mémoria, o valor colocado dentro dele e o índice/chave de indentificação)
 
 
+let num = [5, 8, 4]
+num[3]=6 // é escolhido a posição manualmente
+num.push(7, 2) // é escolhido a posição automaticamente
+num.length // o comprimento do vetor // (length não é um metodo é um atributo)
+num.sort() // Ordena os elementos de forma crescente // A ordem do metodo interno dos elementos das ARRAY/vetor alteram a resultado
+console.log(num)
+console.log(`O valor do primeiro elemento é ${num[0]}`)
+console.log(`O vetor tem ${num.length} elementos`)
+console.log(`Com o .sort() os elementos ficam ordenados ${num.sort()}`)
 
 
+Para facilitar/agilizar a selecão de um elemento de uma ARRAY/VETOR é só usar (for), (while) e (do while)
 
+        for(let pos= 0; pos<num.length;pos++ ){
+             console.log(num[pos])
+        }
+
+Ex: com (for) com e sem .sort()
+
+        valores.sort()
+        console.log(`Posição com o .sorte ${valores}`)
+        for(let pos = 0; pos <  valores.length; pos++)
+                console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+
+        let valores = [8, 1, 7, 4, 2, 9]
+        console.log(`Posição sem o .sorte ${valores}`)
+        for(let pos = 0; pos < valores.length; pos++)
+                console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+
+Uma outra forma de fazer o "Percurso em ARRAY/VETOR" e é até mais facíl de se usar. E é mais otimizado para váriaveis compostas e objetos.
+
+DICA - Vetores e objetos é muito importante no JavaScript.
+                let valores = [8, 1, 7, 4, 2, 9 ]
+
+                for(let pos in num){
+                        console.log(num[pos])
+                        
+                } 
+
+                for(let pos in valores){
+                        console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+                }
+
+
+Buscar o valor de dentro do elentro usar "num.indexOf()"
+Caso o valor buscado não sejá encontrado será retornado -1
+
+                        let valores = [8, 1, 7, 4, 2, 9 ]
+                        valores.sort()
+                        console.log(valores)
+                        for(let pos in valores){
+                        console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+                        }
+                        let num = valores.indexOf(2)
+                        if (num == -1){
+                        console.log(`O valor não foi encontrado!`)
+                        }else {
+                        console.log(`O valor esta na posição ${num}`)
+                        }
 
 
 

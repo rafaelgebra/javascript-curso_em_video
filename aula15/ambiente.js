@@ -1,7 +1,16 @@
-let num = [5, 8, 4]
-num[3]=6 // é escolhido a posição manualmente
-num.push(7) // é escolhido a posição automaticamente
-num.length // o comprimento do vetor // (length não é um metodo é um atributo)
-num.sort() // Ordena os em ordem crescente
-    console.log(`O vetor tem ${num.length} elementos`)
-    console.log(`Com o .sort() os elementos ficam ordenados ${num.sort()}`)
+let valores = [8, 1, 7, 4, 2, 9 ]
+valores.sort()
+console.log(valores)
+for(let pos in valores){
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+let num = valores.indexOf(2)
+if (num == -1){
+    console.log(`O valor não foi encontrado!`)
+}else {
+    console.log(`O valor esta na posição ${num}`)
+}
+
+
+
+
