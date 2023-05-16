@@ -742,9 +742,68 @@ Caso o valor buscado não sejá encontrado será retornado -1
                         }
 
 
-
-
                 Aula 16 - Funções
+
+
+chamada/parâmetro/ação/retorno - Nem toda função tem parametros e retorno
+
+Funções são AÇÕES executadas assim que são CHAMADAS ou em dcorrência de algum EVENTO.
+Uma funçãp pode receber PARÂMETROS e retornar um RESULTADO.
+
+        Exemplo de função
+
+                function parimpar(n){ 
+                        if(n % 2 == 0){ >>> if(n % 2 == 0 ) -> 'ação'
+                        return 'Par' >>> return 'Par' -> 'Retorno'
+                        }else {
+                        return 'Impar' >>> return 'Impar' -> 'Retorno' 
+                        }
+                }
+                
+                console.log(parimpar(223)) >>> parimpar -> 'chamada' () -> 'parâmetro'
+
+        Exemplo 2 'Parametros opcionais'
+
+                function soma(n1=0, n2=0, n3=0) {
+                        return n1 + n2 + n3
+                    }
+                    console.log(soma(1, 2,))  // caso não seja passado o parametro pode por no PARÂMETRO =0, isso indica que mesmo que não seja passado um numero ele vai considera-lo como 0. Isso é um parâmetro pré definido.
+
+        Exemplo 3 'varíavel funcional'
+
+                let v = function(x) {
+                        return x*2
+                }
+                console.log(v(5))
+                
+        Exemplo 4  'fatorial'
+                    
+                function fatorial(n) {
+                        function fatorial(n) {
+                                let fat = 1
+                                for(let c = n; c > 1; c--){
+                                fat *=c
+                                }
+                                
+                                return fat
+                        }
+                        
+                        console.log(fatorial(5))
+                    
+
+
+        Exemplo 4  'fatorial Recursiva'
+
+                function fatorial(n) {
+                        if (n ==1 ){
+                        return 1
+                        }else {
+                        return n * fatorial(n-1)
+                        }
+                }
+                console.log(fatorial(5))
+                        
+
 
 
                 Exercícios JavaScript(Parte 7)
