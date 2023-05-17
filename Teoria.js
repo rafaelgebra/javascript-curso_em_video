@@ -815,4 +815,12 @@ Uma funçãp pode receber PARÂMETROS e retornar um RESULTADO.
 
 
 
-                Aula 17 - 17 - Próximos Passos 
+                Aula 17 - 17 - Próximos Passos - Estudar 
+
+                Functions
+                Objetos
+                Modularização
+                RegEx
+                JSON
+                AJAX
+                Nodejs
