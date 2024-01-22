@@ -110,7 +110,7 @@ Nas verções mais novas é usado somente Number(n), mas se quiser forçar o sis
 
 
 
-Converter conteudo numerido para strind
+Converter conteudo numerico para strind
 só por na frente.
 Exemplo:
 
@@ -148,16 +148,21 @@ var s = 'JavaScript
 ´eu estou aprendendo ${s}       // usa template string
 */
 
+
                 Aula 7  - Operadores (PARTE1)
 
                         1 - aritimético
 
-Soma                    +       5 + 2 -> 7
-Subtroção               -       5 - 2 -> 3
-Multiplicação           *       5 * 2 -> 10
-Divisão real            /       5 / 2 -> 2.5
-Divisão inteira         %       5 % 2 -> 1 ("Resto da Divisão inteira" )
-Potência                **      5 / 2 -> 25
+Soma                    +       5 + 2   -> 7
+Subtroção               -       5 - 2   -> 3
+Multiplicação           *       5 * 2   -> 10
+Divisão real            /       5 / 2   -> 2.5
+Divisão inteira         %       5 % 2   -> 1 ("Resto da Divisão inteira" )
+Potência                **      5 ** 2  -> 2
+
+var x = 5 // usando Incremento e Decremento
+Incremento              ++      x ++   -> 10
+Decremento              --      x --   -> 0        
 
 Muito importante tomar cuidado com a precedência de operadores.
 
@@ -178,7 +183,7 @@ var f = b%e+4/e         -> 3
 
                                 2 - atribuição
 
-Auto-atribuição         Auto-atribuição (simplificada)          operadores de incremento
+Auto-atribuição         Auto-atribuição (simplificada)          operadores de incremento/decremento
 
 var n = 3
 n = n + 4               n += 4  -> 7                            n ++
