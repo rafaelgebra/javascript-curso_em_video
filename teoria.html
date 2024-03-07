@@ -54,7 +54,7 @@ No JS não precisa do ; mas o JS aceita sem problema.
 
 Váriavel em JS é um pouco diferente
 
-No JS moderno, além de ultulizar a palavra (var), também podemos usar a palavra (let)
+No JS moderno, além de ultilizar a palavra (var), também podemos usar a palavra (let)
  O sinal de = se fala 'recebe'
  A váriaveis são locais da memórias dos computador para armazenar dados.
 
@@ -87,11 +87,15 @@ Resumindo -> As variáveis server para armazenar dados
 
                         Tipos primos primordiais
 
-Number = 1 2  56 234 -12 -345 4.56 -34.5
-String = "Google" 'JavaScript' `Maria`
-boolean = true folse
+Number          = (1 2  56 234 -12 -345 = INTEIROS) (4.56 -34.5 = FLOAT) -> Infinity e NaN
+String          = "Google" 'JavaScript' `Maria`
+Boolean/Bool    = true folse
 
 Para saber o tipo de algumas coisa pode usar usar (typeof)
+
+        var n = 200
+        typeof n
+                resposta -> 'number'
 
                                 Aula 6
                         Tratamento de Dados
@@ -100,8 +104,8 @@ Para saber o tipo de algumas coisa pode usar usar (typeof)
                         
 Exemplo: Converter conteudo de string para numero
 
-var n1 = Number.parseInt(window.prompt('Digite um número')) // converter o conteudo nativo strig para numero inteiro.
-var n2 = Number.parseFloat(window.prompt('Digite outro numero'))// converter o conteudo nativo strig para numero float.
+var n1 = Number.parseInt(window.prompt('Digite um número')) // converter o conteúdo nativo strig para numero inteiro.
+var n2 = Number.parseFloat(window.prompt('Digite outro numero'))// converter o conteúdo nativo strig para numero float.
 var s = n1 + n2
 window.alert('A soma dos valores é ' + s)
 
@@ -110,14 +114,13 @@ Nas verções mais novas é usado somente Number(n), mas se quiser forçar o sis
 
 
 
-Converter conteudo numerico para strind
-só por na frente.
+Converter conteúdo númerico para string é só por na frente.
 Exemplo:
 
-1 + String(s) -> '1'
-        ou
-1.toString() -> '1'
-
+        1 + String(s) -> '1'
+                ou
+        1.toString() -> '1'     
+                
                 Formatação String (Template string)
 
 Fica mais facil usar os templade string ${} para colocar os dados.

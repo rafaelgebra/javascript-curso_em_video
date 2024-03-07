@@ -29,5 +29,13 @@
         var s = n1 + n2
         window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
     </script>
+    <script> // A sintaxe parseInt/parseFloat ainda é usada quando ser forçar
+        var n3 = Number.parseInt(window.prompt('Digite um número'))
+        var n4 = Number.parseFloat(window.prompt('Digite outro numero'))
+        var s2 = n3 + n4
+        window.alert(`A soma entre ${n3} e ${n4} é ${s2.toString()}`)// Para converter pra string é só usar comando (variável.toString() ou String(s)). Nesse caso não altera porque esta convertendo o resultado.
+        window.alert(`A soma entre ${n3} e ${n4} é ${String(s2)}`)
+        document.write(`O resultado de ${n3} e ${n4} tem ${String(s).length} string`)
+    </script>
 </body>
 </html>  
